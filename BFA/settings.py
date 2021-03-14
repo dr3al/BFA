@@ -11,13 +11,13 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os, sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
+#PROJECT_ROOT = os.path.dirname(__file__)
+#sys.path.insert(0, os.path.join(PROJECT_ROOT,'apps'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$8(i0^5$7e0tv)+bymd2m+c*!*5g61n5qgc4ma)6k()*amc*0k'
@@ -103,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = 'UTC'
 
