@@ -26,5 +26,7 @@ urlpatterns = [
     path('messages/', include('messages.urls')),
     path('near/', include('near.urls')),
     path('visitors/', include('visitors.urls')),
+    path('sign_in/', include('sign_in.urls')),
+    path('sign_up/', include('sign_up.urls')),
     path('admin/', admin.site.urls),
 ]
