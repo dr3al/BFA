@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 def index(request):
-    return HttpResponse("Вот она, на хую намотана!")
+    return HttpResponse("Вот она!")
 
 # Create your views here.
